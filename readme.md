@@ -1,11 +1,11 @@
 # LJ-Moods
 
-Stable tag: 0.5
-Tags: livejournal, customfields, mood
-Requires at least: 3.0
-Tested up to: 5.9
-Contributors: Kelson
-License: GPLv2 or later
+Stable tag: 0.5  
+Tags: livejournal, customfields, mood  
+Requires at least: 3.0  
+Tested up to: 5.9  
+Contributors: Kelson  
+License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays the mood, music, and location fields as imported by the LiveJournal importer at the end of each post.
