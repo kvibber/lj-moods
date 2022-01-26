@@ -40,8 +40,10 @@ That's a little more complicated, because you need to export your userpics as we
 
 You can edit the custom fields lj_current_mood, lj_current_music, and lj_current_location in the post editor.
 
-
 == Changelog ==
+
+= 0.5.1 =
+* Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg.
 
 = 0.5 =
 * Optional google maps link for location.
@@ -59,4 +61,5 @@ You can edit the custom fields lj_current_mood, lj_current_music, and lj_current
 = 0.1 =
 * Display mood, music and location at end of post content.
 * Don't show if password is required.
+
 

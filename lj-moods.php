@@ -1,11 +1,11 @@
 <?php
 /*
  Plugin Name: LJ-Moods
- Plugin URI: https://www.hyperborea.org/journal/lj-moods/
+ Plugin URI: https://codeberg.org/kvibber/lj-moods
  Description: Display the current mood, music, and location on a blog imported from LiveJournal using the WordPress LiveJournal importer.
- Version: 0.5
+ Version: 0.5.1
  Author: Kelson Vibber
- Author URI: http://www.hyperborea.org/
+ Author URI: https://kvibber.com
  */
 
 include( "lj-moods-options.php" );
