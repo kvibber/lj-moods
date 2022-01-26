@@ -42,4 +42,4 @@ You can edit the custom fields lj_current_mood, lj_current_music, and lj_current
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods), [mirror on GitHub](https://github.com/kvibber/lj-moods). [Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).
 
-(c) 2018-2022 [Kelson Vibber](https://kvibber.com/)
+(c) 2016-2022 [Kelson Vibber](https://kvibber.com/)
