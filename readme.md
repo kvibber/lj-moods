@@ -1,14 +1,14 @@
 # LJ-Moods
 
-Displays the mood, music, and location fields as imported by the LiveJournal importer at the end of each WordPress post.
+Stable tag: 0.5
+Tags: livejournal, customfields, mood
+Requires at least: 3.0
+Tested up to: 5.9
+Contributors: Kelson
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Author: [Kelson Vibber](https://kvibber.com)
-License: [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-[At the WordPress Plugin Repository](https://wordpress.org/plugins/lj-moods/)
-
-Current version: 0.5.1
-Current stable version: 0.5
-Runs on Wordpress 3.0 through at least 5.9!
+Displays the mood, music, and location fields as imported by the LiveJournal importer at the end of each post.
 
 ## Description
 
