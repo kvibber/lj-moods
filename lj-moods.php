@@ -6,6 +6,8 @@
  Version: 0.5.1
  Author: Kelson Vibber
  Author URI: https://kvibber.com
+ License: GPLv2 or later  
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 include( "lj-moods-options.php" );
