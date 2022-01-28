@@ -24,7 +24,7 @@ Install the plugin and activate it. If you want location tags to link to Google 
 
 In current versions of WordPress, it will use the viewer's emoji set. On an iPhone it will use Apple's emoji, on a Galaxy phone it will use Samsung's emoji, etc. On desktop systems, they may use system emoji or may be converted to images using WordPress' built-in conversion map.
 
-On older versions of WordPress (before 4.2), most of the mood icons appear as WordPress smilies. There are a few LJ moods that don't quite line up with the old smiley set, so I've mapped them directly to emoji. The icons for those moods (sleepy, thoughtful, sick, drunk, excited and their synonyms) will show up on phones, but may or may not appear on all desktops.
+On older versions of WordPress (before 4.2), most of the mood icons appear as WordPress smilies. There are a few LJ moods that don't quite line up with the old smiley set, so I've mapped them directly to emoji. The icons for those moods (sleepy, thoughtful, sick, drunk, excited and their synonyms) should display on phones and modern desktop systems, but may not appear on older desktops.
 
 ### How can I customize the appearance?
 
