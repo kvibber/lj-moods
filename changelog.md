@@ -1,7 +1,7 @@
 # Changelog
 
-## [0.5.1] - 2022-01-25
-* Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg.
+## [0.5.1] - 2022-01-29
+* Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
 ## [0.5] - 2017-04-16
 * Optional google maps link for location.
