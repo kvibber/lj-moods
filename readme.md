@@ -38,8 +38,16 @@ That's a little more complicated, because you need to export your userpics as we
 
 You can edit the custom fields lj_current_mood, lj_current_music, and lj_current_location in the post editor.
 
+### Compatibility?
+
+It should work with any theme.
+
+It's also compatible with [ClassicPress](https://www.classicpress.net/).
+
 ## Notes
 
-[Source on Codeberg](https://codeberg.org/kvibber/lj-moods), [mirror on GitHub](https://github.com/kvibber/lj-moods). [Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).
+[Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
+[Mirror on GitHub](https://github.com/kvibber/lj-moods).  
+[Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).
 
 (c) 2016-2022 [Kelson Vibber](https://kvibber.com/)
