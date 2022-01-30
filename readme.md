@@ -1,6 +1,6 @@
 # LJ-Moods
 
-Stable tag: 0.5.1  
+Stable tag: 0.5.2  
 Tags: livejournal, customfields, mood  
 Requires at least: 3.0  
 Tested up to: 5.9  
@@ -38,13 +38,16 @@ That's a little more complicated, because you need to export your userpics as we
 
 You can edit the custom fields lj_current_mood, lj_current_music, and lj_current_location in the post editor.
 
-### Compatibility?
+### What about compatibility?
 
 It should work with any theme.
 
 It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
-## Notes
+## Changelog
+
+## [0.5.2] - 2022-01-29
+* Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
 [Mirror on GitHub](https://github.com/kvibber/lj-moods).  
