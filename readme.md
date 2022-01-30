@@ -46,7 +46,7 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
 
-## [0.5.2] - 2022-01-29
+### [0.5.2] - 2022-01-29
 * Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
