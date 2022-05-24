@@ -3,7 +3,7 @@
 Stable tag: 0.5.2  
 Tags: livejournal, customfields, mood  
 Requires at least: 3.0  
-Tested up to: 5.9  
+Tested up to: 6.0  
 Contributors: Kelson  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -45,6 +45,9 @@ It should work with any theme.
 It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
+
+### 2022-05-24
+* Confirmed compatible with WordPress 6.0
 
 ### [0.5.2] - 2022-01-29
 * Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
