@@ -185,7 +185,11 @@ function lj_moods_metablock( $post_id ) {
 		
 		$options = get_option('lj_moods_settings', array());
 		if($options['link_to_map'] == 1) {
-			$return .= "<a href='https://www.google.com/maps/search/" . rawurlencode(wp_strip_all_tags( $location)) . "'>" . $locationFormatted . "</a>";
+			if ($options['map_service'] == 'openstreetmap') {
+				$return .= "<a href='https://www.google.com/maps/search/" . rawurlencode(wp_strip_all_tags( $location)) . "'>" . $locationFormatted . "</a>";
+			else {
+				$return .= "<a href='https://www.openstreetmap.org/search?query=" . rawurlencode(wp_strip_all_tags( $location)) . "'>" . $locationFormatted . "</a>";
+			}
 		} else {
 			$return .= $locationFormatted;
 		}
