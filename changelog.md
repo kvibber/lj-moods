@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.5.3] - 2022-06-02
+* Code cleanup for ClassicPress plugin review.
+
 ## [0.5.2] - 2022-01-29
 * Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
