@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.6.0] - 2022-06-02
+* Option to link location to OpenStreetMap instead of Google Maps.
+
 ## [0.5.3] - 2022-06-02
 * Code cleanup for ClassicPress plugin review.
 
@@ -7,7 +10,7 @@
 * Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
 ## [0.5] - 2017-04-16
-* Optional google maps link for location.
+* Optional Google Maps link for location.
 
 ## [0.4] - 2016-07-29
 * Sanitize the mood before looking up the icon (requires WP 3.0 and up)

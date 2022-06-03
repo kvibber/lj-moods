@@ -186,13 +186,15 @@ function lj_moods_metablock( $post_id ) {
 		$locationFormatted = esc_html( wptexturize( $location ) );
 		
 		$options = get_option('lj_moods_settings', array());
-		if($options['link_to_map'] == 1) {
-			if ($options['map_service'] == 'openstreetmap') {
+		switch($options['link_to_map']) {
+			case 'google':
+			case 1:
 				$return .= "<a href='https://www.google.com/maps/search/" . rawurlencode(wp_strip_all_tags( $location)) . "'>" . $locationFormatted . "</a>";
-			else {
+				break;
+			case 'openstreetmap':
 				$return .= "<a href='https://www.openstreetmap.org/search?query=" . rawurlencode(wp_strip_all_tags( $location)) . "'>" . $locationFormatted . "</a>";
-			}
-		} else {
+				break;
+			default:
 			$return .= $locationFormatted;
 		}
 	}

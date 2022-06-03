@@ -7,9 +7,9 @@ function lj_moods_settings_init(  ) {
 	register_setting( 'reading', 'lj_moods_settings', 'lj_moods_settings_validate' );
 	// todo use activation hook
 	if( false === get_option( 'lj_moods_settings' ) ) { 
-	
-		add_option( 'lj_moods_settings' , array('link_to_map'=>1));
-	} 
+		add_option( 'lj_moods_settings' , array('link_to_map' => 'none'));
+	}
+	// todo update settings on upgrade/install
 
 	add_settings_section(
 		'lj_moods_settings', 
@@ -20,21 +20,29 @@ function lj_moods_settings_init(  ) {
 
 	add_settings_field( 
 		'link_to_map_setting_id', 
-		__( 'Link Location to Google Maps', 'ktv-lj-moods' ), 
+		__( 'Link Location to Map', 'ktv-lj-moods' ), 
 		'lj_moods_link_to_map_render', 
 		'reading', 
 		'lj_moods_settings' 
 	);
 }
 
+// Merge current options with defaults
 function lj_moods_get_options() {
 	$options = get_option( 'lj_moods_settings', array());
-	$defaults = array('link_to_map' => 0);
+	$defaults = array('link_to_map' => 'none');
 	return array_merge( $defaults, $options );
 }
 
+// If the value is allowed, keep it, otherwise set it to 'none'
 function lj_moods_settings_validate($input) {
-    $input['link_to_map'] = ( $input['link_to_map'] == 1 ? 1 : 0 );
+    switch($input['link_to_map']) {
+	case 'google':
+	case 'openstreetmap':
+		break;
+	default:
+		$input['link_to_map'] = 'none';
+    }
     return $input;
 }
 
@@ -42,7 +50,9 @@ function lj_moods_link_to_map_render(  ) {
 
 	$options = lj_moods_get_options();
 	?>
-	<input type='checkbox' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'], 1); ?> value='1'>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'none'); ?> value='none'><?php echo __('Do not link', 'ktv-lj-moods'); ?></label><br/>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'google' || $options['link_to_map'] == 1); ?> value='google'><?php echo __('Google Maps', 'ktv-lj-moods'); ?></label><br/>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'openstreetmap'); ?> value='openstreetmap'><?php echo __('OpenStreetMap', 'ktv-lj-moods'); ?></label>
 	<?php
 
 }
