@@ -6,6 +6,7 @@
  Version: 0.5.2
  Author: Kelson Vibber
  Author URI: https://kvibber.com
+ Text Domain: ktv-lj-moods
  License: GPLv2 or later  
  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -14,6 +15,7 @@ include( "lj-moods-options.php" );
 
 // Display imported LiveJournal mood, music and location.
 function lj_moods_metablock( $post_id ) {
+	load_plugin_textdomain('ktv-lj-moods');
 	$mood =  get_post_meta( $post_id, 'lj_current_mood', true );
 	$location =  get_post_meta( $post_id, 'lj_current_location', true );
 	$music =  get_post_meta( $post_id, 'lj_current_music', true );
@@ -172,15 +174,15 @@ function lj_moods_metablock( $post_id ) {
 
 	);
 	
-		$return .= '<b>Current Mood:</b> ' .
+		$return .= '<b>' . __('Current Mood', 'ktv-lj-moods') . ':</b> ' .
 			convert_smilies( $mood_map[sanitize_key( $mood )] ) .
-			esc_html( wptexturize ( $mood ) ) . '<br/>';
+			esc_html( wptexturize ( __($mood, 'ktv-lj-moods') ) ) . '<br/>';
 	}
 	if ( !empty($music) ) {
-		$return .= '<b>Current Music:</b> ' . esc_html( wptexturize ( $music ) ) . '<br/>';
+		$return .= '<b>' . __('Current Music', 'ktv-lj-moods') . ':</b> ' . esc_html( wptexturize ( $music ) ) . '<br/>';
 	}
 	if ( !empty($location) ) {
-		$return .= '<b>Current Location:</b> ';
+		$return .= '<b>' . __('Current Location', 'ktv-lj-moods') . ':</b> ';
 		$locationFormatted = esc_html( wptexturize( $location ) );
 		
 		$options = get_option('lj_moods_settings', array());
