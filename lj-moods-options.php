@@ -3,7 +3,7 @@
 add_action( 'admin_init', 'lj_moods_settings_init' );
 
 function lj_moods_settings_init(  ) { 
-
+	load_plugin_textdomain('ktv-lj-moods');
 	register_setting( 'reading', 'lj_moods_settings', 'lj_moods_settings_validate' );
 	// todo use activation hook
 	if( false === get_option( 'lj_moods_settings' ) ) { 
@@ -13,14 +13,14 @@ function lj_moods_settings_init(  ) {
 
 	add_settings_section(
 		'lj_moods_settings', 
-		__( 'LJ-Moods', 'wordpress' ), 
+		__( 'LJ-Moods', 'ktv-lj-moods' ), 
 		'lj_moods_settings_section_callback', 
 		'reading'
 	);
 
 	add_settings_field( 
 		'link_to_map_setting_id', 
-		__( 'Link Location to Google Maps', 'wordpress' ), 
+		__( 'Link Location to Google Maps', 'ktv-lj-moods' ), 
 		'lj_moods_link_to_map_render', 
 		'reading', 
 		'lj_moods_settings' 
@@ -49,7 +49,7 @@ function lj_moods_link_to_map_render(  ) {
 
 
 function lj_moods_settings_section_callback(  ) { 
-	//echo __( 'LJ-Moods Settings', 'wordpress' );
+	//echo __( 'LJ-Moods Settings', 'ktv-lj-moods' );
 }
 
 
