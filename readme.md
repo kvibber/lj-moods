@@ -10,7 +10,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 For ClassicPress  
 Requires: 1.0  
-Tested: 1.3
+Tested: 1.4.1
 
 Displays the mood, music, and location fields as imported by the LiveJournal importer at the end of each post.
 
