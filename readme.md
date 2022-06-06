@@ -1,6 +1,6 @@
 # LJ-Moods
 
-Stable tag: 0.5.3  
+Stable tag: 0.5.4  
 Tags: livejournal, customfields, mood  
 Requires at least: 3.0  
 Tested up to: 6.0  
