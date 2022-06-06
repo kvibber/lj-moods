@@ -50,7 +50,7 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
 
-### [0.5.3] - 2022-06-02
+### [0.5.4] - 2022-06-05
 * Code cleanup for ClassicPress plugin review.
 
 ### [0.5.2] - 2022-01-29

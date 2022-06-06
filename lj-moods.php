@@ -176,7 +176,7 @@ function lj_moods_metablock( $post_id ) {
 	
 		$return .= '<b>' . __('Current Mood', 'ktv-lj-moods') . ':</b> ' .
 			convert_smilies( $mood_map[sanitize_key( $mood )] ) .
-			esc_html( wptexturize ( __($mood, 'ktv-lj-moods') ) ) . '<br/>';
+			esc_html( wptexturize ( $mood ) ) . '<br/>';
 	}
 	if ( !empty($music) ) {
 		$return .= '<b>' . __('Current Music', 'ktv-lj-moods') . ':</b> ' . esc_html( wptexturize ( $music ) ) . '<br/>';
