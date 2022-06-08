@@ -58,6 +58,7 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
 [Mirror on GitHub](https://github.com/kvibber/lj-moods).  
-[Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).
+[Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).  
+[Plugin page at ClassicPress](https://directory.classicpress.net/plugins/lj-moods).
 
 (c) 2016-2022 [Kelson Vibber](https://kvibber.com/)
