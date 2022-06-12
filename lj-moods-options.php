@@ -37,6 +37,8 @@ function lj_moods_get_options() {
 // If the value is allowed, keep it, otherwise set it to 'none'
 function lj_moods_settings_validate($input) {
     switch($input['link_to_map']) {
+	case 'bing':
+	case 'duckduckgo':
 	case 'google':
 	case 'openstreetmap':
 		break;
@@ -51,8 +53,10 @@ function lj_moods_link_to_map_render(  ) {
 	$options = lj_moods_get_options();
 	?>
 	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'none'); ?> value='none'><?php echo __('Do not link', 'ktv-lj-moods'); ?></label><br/>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'openstreetmap'); ?> value='openstreetmap'><?php echo __('OpenStreetMap', 'ktv-lj-moods'); ?></label><br/>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'bing'); ?> value='bing'><?php echo __('Bing Maps', 'ktv-lj-moods'); ?></label><br/>
+	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'duckduckgo'); ?> value='duckduckgo'><?php echo __('DuckDuckGo', 'ktv-lj-moods'); ?></label><br/>
 	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'google' || $options['link_to_map'] == 1); ?> value='google'><?php echo __('Google Maps', 'ktv-lj-moods'); ?></label><br/>
-	<label><input type='radio' name='lj_moods_settings[link_to_map]' <?php checked( $options['link_to_map'] == 'openstreetmap'); ?> value='openstreetmap'><?php echo __('OpenStreetMap', 'ktv-lj-moods'); ?></label>
 	<?php
 
 }
