@@ -51,7 +51,7 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 ## Changelog
 
 ### [0.6.0] - 2022-06-02
-* Option to link location to OpenStreetMap instead of Google Maps.
+* Option to link location to OpenStreetMap, Bing or DuckDuckGo Maps instead of Google Maps.
 
 ### [0.5.4] - 2022-06-05
 * Code cleanup for ClassicPress plugin review.

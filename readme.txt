@@ -50,11 +50,11 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 == Changelog ==
 
+= [0.6.0] - 2022-06-02 =
+* Option to link location to OpenStreetMap, Bing or DuckDuckGo Maps instead of Google Maps.
+
 = [0.5.4] - 2022-06-05 =
 * Code cleanup for ClassicPress plugin review.
-
-= [0.5.2] - 2022-01-29 =
-* Documentation changes only: Separate changelog, update author homepage, set up git repo on Codeberg, and confirm ClassicPress compatibility.
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
 [Mirror on GitHub](https://github.com/kvibber/lj-moods).  
