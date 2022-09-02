@@ -15,7 +15,6 @@ fi
 
 mkdir build/lj-moods
 cp -p *.php *.txt *.md LICENSE build/lj-moods
-rm build/lj-moods/readme.md
 
 echo "Building lj-moods.zip"
 cd build && zip -r lj-moods.zip lj-moods

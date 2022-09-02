@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.6.1] - 2022-09-02
+* Update headers for new ClassicPress plugin directory.
+
 ## [0.6.0] - 2022-06-02
 * Option to link location to OpenStreetMap, Bing or DuckDuckGo Maps instead of Google Maps.
 

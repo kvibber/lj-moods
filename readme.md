@@ -1,6 +1,6 @@
 # LJ-Moods
 
-Stable tag: 0.5.4  
+Stable tag: 0.6.1
 Tags: livejournal, customfields, mood  
 Requires at least: 3.0  
 Tested up to: 6.0  
@@ -49,6 +49,9 @@ It should work with any theme.
 It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
+
+### [0.6.1] - 2022-09-02
+* Update headers for new ClassicPress plugin directory.
 
 ### [0.6.0] - 2022-06-02
 * Option to link location to OpenStreetMap, Bing or DuckDuckGo Maps instead of Google Maps.
