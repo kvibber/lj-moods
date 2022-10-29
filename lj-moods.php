@@ -3,9 +3,10 @@
  Plugin Name: LJ-Moods
  Plugin URI: https://codeberg.org/kvibber/lj-moods
  Description: Display the current mood, music, and location on a blog imported from LiveJournal using the WordPress LiveJournal importer.
- Version: 0.6.1
- Requires PHP: 7.0
+ Version: 0.6.2
+ Requires at least: 3.0
  Requires CP: 1.0
+ Requires PHP: 7.0
  Author: Kelson Vibber
  Author URI: https://kvibber.com
  Text Domain: ktv-lj-moods

@@ -1,16 +1,10 @@
 # LJ-Moods
 
-Stable tag: 0.6.1
+Stable tag: 0.6.2  
 Tags: livejournal, customfields, mood  
-Requires at least: 3.0  
-Tested up to: 6.0  
-Requires PHP: 7.0  
+Tested up to: 6.1  
 Contributors: Kelson  
 License: GPLv2 or later  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html  
-For ClassicPress  
-Requires: 1.0  
-Tested: 1.4.1
 
 Displays the mood, music, and location fields as imported by the LiveJournal importer at the end of each post.
 
@@ -50,14 +44,14 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
 
+### [0.6.2] - 2022-10-28
+* Clean up headers, test with WordPress 6.1. No functional changes.
+
 ### [0.6.1] - 2022-09-02
 * Update headers for new ClassicPress plugin directory.
 
 ### [0.6.0] - 2022-06-02
 * Option to link location to OpenStreetMap, Bing or DuckDuckGo Maps instead of Google Maps.
-
-### [0.5.4] - 2022-06-05
-* Code cleanup for ClassicPress plugin review.
 
 [Source on Codeberg](https://codeberg.org/kvibber/lj-moods).  
 [Mirror on GitHub](https://github.com/kvibber/lj-moods).  

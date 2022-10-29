@@ -1,5 +1,8 @@
 # Changelog
 
+### [0.6.2] - 2022-10-28
+* Clean up headers, test with WordPress 6.1. No functional changes.
+
 ## [0.6.1] - 2022-09-02
 * Update headers for new ClassicPress plugin directory.
 
