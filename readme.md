@@ -2,7 +2,7 @@
 
 Stable tag: 0.6.2  
 Tags: livejournal, customfields, mood  
-Tested up to: 6.4  
+Tested up to: 6.5  
 Contributors: Kelson  
 License: GPLv2 or later  
 
@@ -58,4 +58,4 @@ It's also compatible with [ClassicPress](https://www.classicpress.net/).
 [Plugin page at WordPress](https://wordpress.org/plugins/lj-moods/).  
 [Plugin page at ClassicPress](https://directory.classicpress.net/plugins/lj-moods).
 
-(c) 2016-2022 [Kelson Vibber](https://kvibber.com/)
+(c) 2016-2024 [Kelson Vibber](https://kvibber.com/)
