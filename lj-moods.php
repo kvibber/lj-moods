@@ -3,7 +3,7 @@
  Plugin Name: LJ-Moods
  Plugin URI: https://codeberg.org/kvibber/lj-moods
  Description: Display the current mood, music, and location on a blog imported from LiveJournal using the WordPress LiveJournal importer.
- Version: 0.6.2
+ Version: 0.6.3
  Requires at least: 3.0
  Requires CP: 1.0
  Requires PHP: 7.0
@@ -22,6 +22,11 @@ function lj_moods_metablock( $post_id ) {
 	$mood =  get_post_meta( $post_id, 'lj_current_mood', true );
 	$location =  get_post_meta( $post_id, 'lj_current_location', true );
 	$music =  get_post_meta( $post_id, 'lj_current_music', true );
+
+	// If they're all empty, don't even return a placeholder div.
+	if ( empty($mood) && empty($location) && empty ($music) ) {
+		return '';
+	}
 
 	$return = "<div class='lj-moods-meta'>";
 	if ( !empty($mood) ) {

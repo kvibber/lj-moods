@@ -1,6 +1,6 @@
 # LJ-Moods
 
-Stable tag: 0.6.2  
+Stable tag: 0.6.3  
 Tags: livejournal, customfields, mood  
 Tested up to: 6.5  
 Contributors: Kelson  
@@ -43,6 +43,9 @@ It should work with any theme.
 It's also compatible with [ClassicPress](https://www.classicpress.net/).
 
 ## Changelog
+
+### [0.6.3] - 2024-03-25
+* Don't add an empty div when there's nothing to put in it.
 
 ### [0.6.2] - 2022-10-28
 * Clean up headers, test with WordPress 6.1. No functional changes.
