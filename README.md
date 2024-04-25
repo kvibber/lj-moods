@@ -14,7 +14,7 @@ The LiveJournal importer (Tools/Import/LiveJournal) saves LJ-specific post info 
 
 ## Installation
 
-Install the plugin and activate it. If you want location tags to link to Google Maps, you can find a checkbox in the Reading section of your WordPress Settings.
+Install the plugin and activate it. If you imported your blog from LiveJournal, it should find your mood, music and locations. If you want location tags to link to Google Maps, you can find a checkbox in the Reading section of your WordPress Settings.
 
 ## Frequently Asked Questions
 
