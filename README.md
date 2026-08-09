@@ -2,7 +2,7 @@
 
 Stable tag: 0.6.3  
 Tags: livejournal, customfields, mood  
-Tested up to: 7.0  
+Tested up to: 7.1  
 Contributors: Kelson  
 License: GPLv2 or later  
 
